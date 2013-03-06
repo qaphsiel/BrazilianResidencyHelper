@@ -56,6 +56,7 @@
 - (IBAction)daysAgoSelector:(id)sender {
     
     int daysAgo = [[sender titleForSegmentAtIndex:[sender selectedSegmentIndex]] intValue];
+    NSLog(@"%d", daysAgo);
 }
 
 
