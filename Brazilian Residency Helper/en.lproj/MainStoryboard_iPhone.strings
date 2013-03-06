@@ -1,0 +1,24 @@
+
+/* Class = "IBUIViewController"; title = "First"; ObjectID = "2"; */
+"2.title" = "First";
+
+/* Class = "IBUIViewController"; title = "Second"; ObjectID = "3"; */
+"3.title" = "Second";
+
+/* Class = "IBUITabBarItem"; title = "Second"; ObjectID = "6"; */
+"6.title" = "Second";
+
+/* Class = "IBUITabBarItem"; title = "First"; ObjectID = "7"; */
+"7.title" = "First";
+
+/* Class = "IBUILabel"; text = "First View"; ObjectID = "20"; */
+"20.text" = "First View";
+
+/* Class = "IBUITextView"; text = "Loaded by the first view controller — an instance of BraResHelFirstViewController — specified in the app delegate."; ObjectID = "21"; */
+"21.text" = "Loaded by the first view controller — an instance of BraResHelFirstViewController — specified in the app delegate.";
+
+/* Class = "IBUILabel"; text = "Second View"; ObjectID = "22"; */
+"22.text" = "Second View";
+
+/* Class = "IBUITextView"; text = "Loaded by the second view controller — an instance of BraResHelSecondViewController — specified in the app delegate."; ObjectID = "23"; */
+"23.text" = "Loaded by the second view controller — an instance of BraResHelSecondViewController — specified in the app delegate.";

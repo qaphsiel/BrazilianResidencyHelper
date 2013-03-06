@@ -24,6 +24,11 @@
 		4A501DC116D6FD3400B1FD02 /* BraResHelSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A501DC016D6FD3400B1FD02 /* BraResHelSecondViewController.m */; };
 		4A501DC316D6FD3400B1FD02 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A501DC216D6FD3400B1FD02 /* second.png */; };
 		4A501DC516D6FD3400B1FD02 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A501DC416D6FD3400B1FD02 /* second@2x.png */; };
+		4A501DD716D7010800B1FD02 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A501DD216D7010800B1FD02 /* TFHpple.m */; };
+		4A501DD816D7010800B1FD02 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A501DD416D7010800B1FD02 /* TFHppleElement.m */; };
+		4A501DD916D7010800B1FD02 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A501DD616D7010800B1FD02 /* XPathQuery.m */; };
+		4A501DDB16D704B000B1FD02 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A501DDA16D704B000B1FD02 /* libxml2.2.dylib */; };
+		4A501DE516D7101C00B1FD02 /* QueryDou.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A501DE416D7101C00B1FD02 /* QueryDou.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,8 +45,6 @@
 		4A501DAC16D6FD3300B1FD02 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4A501DAE16D6FD3300B1FD02 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4A501DB016D6FD3300B1FD02 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		4A501DB316D6FD3300B1FD02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		4A501DB616D6FD3300B1FD02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		4A501DB816D6FD3300B1FD02 /* BraResHelFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BraResHelFirstViewController.h; sourceTree = "<group>"; };
 		4A501DB916D6FD3400B1FD02 /* BraResHelFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BraResHelFirstViewController.m; sourceTree = "<group>"; };
 		4A501DBB16D6FD3400B1FD02 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
@@ -50,6 +53,22 @@
 		4A501DC016D6FD3400B1FD02 /* BraResHelSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BraResHelSecondViewController.m; sourceTree = "<group>"; };
 		4A501DC216D6FD3400B1FD02 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		4A501DC416D6FD3400B1FD02 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		4A501DCB16D6FEE600B1FD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		4A501DCC16D6FEE700B1FD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		4A501DCF16D6FF6600B1FD02 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A501DD116D7010800B1FD02 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		4A501DD216D7010800B1FD02 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		4A501DD316D7010800B1FD02 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		4A501DD416D7010800B1FD02 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		4A501DD516D7010800B1FD02 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		4A501DD616D7010800B1FD02 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		4A501DDA16D704B000B1FD02 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		4A501DDC16D7073200B1FD02 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MainStoryboard_iPhone.strings; sourceTree = "<group>"; };
+		4A501DDE16D7074E00B1FD02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainStoryboard_iPhone.strings; sourceTree = "<group>"; };
+		4A501DE016D7075E00B1FD02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainStoryboard_iPad.strings; sourceTree = "<group>"; };
+		4A501DE116D7076400B1FD02 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MainStoryboard_iPad.strings; sourceTree = "<group>"; };
+		4A501DE316D7101C00B1FD02 /* QueryDou.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryDou.h; sourceTree = "<group>"; };
+		4A501DE416D7101C00B1FD02 /* QueryDou.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryDou.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A501DDB16D704B000B1FD02 /* libxml2.2.dylib in Frameworks */,
 				4A501D9B16D6FD3300B1FD02 /* UIKit.framework in Frameworks */,
 				4A501D9D16D6FD3300B1FD02 /* Foundation.framework in Frameworks */,
 				4A501D9F16D6FD3300B1FD02 /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +89,7 @@
 		4A501D8E16D6FD3300B1FD02 = {
 			isa = PBXGroup;
 			children = (
+				4A501DDA16D704B000B1FD02 /* libxml2.2.dylib */,
 				4A501DA016D6FD3300B1FD02 /* Brazilian Residency Helper */,
 				4A501D9916D6FD3300B1FD02 /* Frameworks */,
 				4A501D9816D6FD3300B1FD02 /* Products */,
@@ -96,6 +117,8 @@
 		4A501DA016D6FD3300B1FD02 /* Brazilian Residency Helper */ = {
 			isa = PBXGroup;
 			children = (
+				4A501DE216D7101C00B1FD02 /* Model */,
+				4A501DD016D7010800B1FD02 /* hpple */,
 				4A501DA916D6FD3300B1FD02 /* BraResHelAppDelegate.h */,
 				4A501DAA16D6FD3300B1FD02 /* BraResHelAppDelegate.m */,
 				4A501DB216D6FD3300B1FD02 /* MainStoryboard_iPhone.storyboard */,
@@ -125,6 +148,28 @@
 				4A501DB016D6FD3300B1FD02 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A501DD016D7010800B1FD02 /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				4A501DD116D7010800B1FD02 /* TFHpple.h */,
+				4A501DD216D7010800B1FD02 /* TFHpple.m */,
+				4A501DD316D7010800B1FD02 /* TFHppleElement.h */,
+				4A501DD416D7010800B1FD02 /* TFHppleElement.m */,
+				4A501DD516D7010800B1FD02 /* XPathQuery.h */,
+				4A501DD616D7010800B1FD02 /* XPathQuery.m */,
+			);
+			path = hpple;
+			sourceTree = "<group>";
+		};
+		4A501DE216D7101C00B1FD02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A501DE316D7101C00B1FD02 /* QueryDou.h */,
+				4A501DE416D7101C00B1FD02 /* QueryDou.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +208,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
+				es,
 			);
 			mainGroup = 4A501D8E16D6FD3300B1FD02;
 			productRefGroup = 4A501D9816D6FD3300B1FD02 /* Products */;
@@ -203,6 +250,10 @@
 				4A501DAB16D6FD3300B1FD02 /* BraResHelAppDelegate.m in Sources */,
 				4A501DBA16D6FD3400B1FD02 /* BraResHelFirstViewController.m in Sources */,
 				4A501DC116D6FD3400B1FD02 /* BraResHelSecondViewController.m in Sources */,
+				4A501DD716D7010800B1FD02 /* TFHpple.m in Sources */,
+				4A501DD816D7010800B1FD02 /* TFHppleElement.m in Sources */,
+				4A501DD916D7010800B1FD02 /* XPathQuery.m in Sources */,
+				4A501DE516D7101C00B1FD02 /* QueryDou.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +264,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				4A501DA416D6FD3300B1FD02 /* en */,
+				4A501DCF16D6FF6600B1FD02 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -220,7 +272,9 @@
 		4A501DB216D6FD3300B1FD02 /* MainStoryboard_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4A501DB316D6FD3300B1FD02 /* en */,
+				4A501DCB16D6FEE600B1FD02 /* Base */,
+				4A501DDC16D7073200B1FD02 /* es */,
+				4A501DDE16D7074E00B1FD02 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
@@ -228,7 +282,9 @@
 		4A501DB516D6FD3300B1FD02 /* MainStoryboard_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4A501DB616D6FD3300B1FD02 /* en */,
+				4A501DCC16D6FEE700B1FD02 /* Base */,
+				4A501DE016D7075E00B1FD02 /* en */,
+				4A501DE116D7076400B1FD02 /* es */,
 			);
 			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
@@ -261,6 +317,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -286,6 +343,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;

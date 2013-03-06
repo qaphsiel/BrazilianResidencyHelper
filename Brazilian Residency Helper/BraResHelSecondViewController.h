@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BraResHelSecondViewController : UIViewController
+@interface BraResHelSecondViewController : UIViewController <UIWebViewDelegate,UITextFieldDelegate>
 
 @end
